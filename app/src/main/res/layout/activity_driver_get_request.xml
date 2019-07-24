@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DriverGetRequestActivity"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/txtViewrequestPassenger"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:textSize="20dp"
+        android:text="View Request Passenger" />
+
+    <Button
+        android:id="@+id/btnUpadateRequest"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Update Request List"
+        android:background="@drawable/input_res"/>
+
+    <ListView
+        android:id="@+id/listRequest"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="6dp"
+        android:paddingBottom="3dp"
+        android:layout_marginBottom="4dp"
+        android:clipToPadding="false"
+        android:divider="@drawable/list_divider"
+        android:stackFromBottom="false"
+        android:transcriptMode="normal"/>
+
+</LinearLayout>
